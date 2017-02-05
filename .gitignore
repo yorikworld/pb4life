@@ -3,8 +3,9 @@ npm-debug.log
 /logs
 wp-config.php
 /wp-content/uploads/
-/wp-content/themes/paintball/
+/wp-content/themes/paintball/*
 !/wp-content/themes/paintball/dist/
 !/wp-content/themes/paintball/index.php
 !/wp-content/themes/paintball/functions.php
 !/wp-content/themes/paintball/style.css
+wp-content/upgrade/
