@@ -1,11 +1,7 @@
 .idea
 npm-debug.log
 /logs
+/ng-src
 wp-config.php
 /wp-content/uploads/
-/wp-content/themes/paintball/*
-!/wp-content/themes/paintball/dist/
-!/wp-content/themes/paintball/index.php
-!/wp-content/themes/paintball/functions.php
-!/wp-content/themes/paintball/style.css
 wp-content/upgrade/
