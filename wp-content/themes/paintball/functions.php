@@ -1,5 +1,7 @@
 <?php
 add_theme_support( 'post-thumbnails' );
+add_post_type_support( 'post', 'excerpt' );
+remove_filter( 'the_excerpt', 'wpautop' );
 add_action( 'rest_api_init', 'insert_thumbnail_url' );
 function insert_thumbnail_url() {
 	register_rest_field( 'post',
