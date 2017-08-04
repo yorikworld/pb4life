@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "wp-content/themes/paintball/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "ng-src/"
+    ]
+  }
+}

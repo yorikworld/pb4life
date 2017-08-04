@@ -18,6 +18,7 @@ function insert_thumbnail_url() {
 function get_thumbnail_url( $post ) {
 		if ( has_post_thumbnail( $post['id'] ) ) {
 				$imgArray = wp_get_attachment_image_src( get_post_thumbnail_id( $post['id'] ), 'full' );
+//				$imgArray = wp_get_attachment_image_src( get_post_thumbnail_id( $post['id'] ), 'carousel' );
 				$imgURL   = $imgArray[0];
 
 				return $imgURL;
@@ -45,6 +46,11 @@ function post_view_count_callback() {
 //}
 //
 //add_filter("acf/load_field", "my_load_field");
+
+////if ( function_exists( 'add_image_size' ) ) {
+//		add_image_size( 'category-thumb', 300 ); // 300 pixels wide (and unlimited height)
+//		add_image_size( 'carousel', 560, 426, true ); // (cropped)
+//}
 
 add_action( 'wp_ajax_post_view_count', 'post_view_count_callback' );
 add_action( 'wp_ajax_nopriv_post_view_count', 'post_view_count_callback' );

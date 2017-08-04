@@ -48,3 +48,4 @@ span.meta_date:hover, span.meta_comment:hover, span.meta_more:hover, span.meta_c
 .contact_us:before{border-bottom:1px solid #ffa500}
 .single_footer_top > h2{color:#ffa500}
 .similar_post h2 i{color:#ffa500}
+.navbar-nav>li a.active{background-color: #fff;color: #ffa500;border-color: #FFAE00;}
